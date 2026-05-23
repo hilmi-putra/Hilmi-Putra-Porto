@@ -357,18 +357,24 @@ const ProjectCaseStudyModal = ({ project, labels, onClose }) => {
               </div>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <a href={project.meta.liveUrl} className="inline-flex items-center justify-center gap-2 rounded-full bg-blue-500 px-5 py-3 text-sm font-black text-white transition-all duration-300 hover:bg-slate-950">
-                  {labels.viewLive}
-                  <ExternalLink size={16} />
-                </a>
-                <a href={project.meta.githubUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition-all duration-300 hover:bg-blue-500">
-                  {labels.githubRepository}
-                  <Github size={16} />
-                </a>
-                <a href={project.meta.figmaUrl} className="inline-flex items-center justify-center gap-2 rounded-full bg-lime-300 px-5 py-3 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-lime-200">
-                  {labels.figmaFile}
-                  <Figma size={16} />
-                </a>
+                {project.meta.liveUrl && project.meta.liveUrl !== "#" && (
+                  <a href={project.meta.liveUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-full bg-blue-500 px-5 py-3 text-sm font-black text-white transition-all duration-300 hover:bg-slate-950">
+                    {labels.viewLive}
+                    <ExternalLink size={16} />
+                  </a>
+                )}
+                {project.meta.githubUrl && project.meta.githubUrl !== "#" && (
+                  <a href={project.meta.githubUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition-all duration-300 hover:bg-blue-500">
+                    {labels.githubRepository}
+                    <Github size={16} />
+                  </a>
+                )}
+                {project.meta.figmaUrl && project.meta.figmaUrl !== "#" && (
+                  <a href={project.meta.figmaUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-full bg-lime-300 px-5 py-3 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-lime-200">
+                    {labels.figmaFile}
+                    <Figma size={16} />
+                  </a>
+                )}
               </div>
             </div>
           </div>
