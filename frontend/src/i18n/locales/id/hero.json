@@ -1,0 +1,28 @@
+{
+  "badge": "Creative fullstack portfolio",
+  "locationPrefix": "Berbasis di",
+  "titleLines": ["Build", "Useful", "Digital", "Stories."],
+  "description": "Developer kreatif lulusan RPL SMK Negeri 1 Cimahi yang membangun produk web end-to-end dengan Laravel, React, Tailwind, database relasional, dan detail UI yang rapi. Aku suka membuat sistem yang kuat di belakang layar dan tampilan yang terasa ringan, clean, serta menyenangkan dipakai.",
+  "ctaPrimary": "Explore work",
+  "ctaSecondary": "Let's connect",
+  "currentFocusEyebrow": "Current focus",
+  "currentFocusText": "Laravel systems, React UI, dan workflow tools yang rapi.",
+  "portraitAlt": "Potret {{name}}",
+  "portraitLabel": "Hilmi Abdurrafi",
+  "portraitTitle": "Developer with a product mindset.",
+  "sticker": "React + Laravel + motion detail",
+  "stats": [
+    {
+      "value": "20%",
+      "label": "checkout lebih cepat lewat alur barcode POS"
+    },
+    {
+      "value": "500+",
+      "label": "data SKU dimigrasikan ke platform operasional"
+    },
+    {
+      "value": "OJS 3.4",
+      "label": "kustomisasi theme dan workflow"
+    }
+  ]
+}

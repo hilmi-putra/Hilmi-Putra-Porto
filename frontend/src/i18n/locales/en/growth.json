@@ -1,0 +1,95 @@
+{
+  "eyebrow": "Growth",
+  "title": "A tech stack shaped by real projects.",
+  "description": "This skill set is not just a list of tools. It grew from POS systems, payment gateways, OJS, WordPress, migration work, dashboards, and interfaces that need to be stable for real users.",
+  "stackBadge": "Stack",
+  "highlights": [
+    {
+      "value": "Fullstack",
+      "label": "Build from database to polished UI"
+    },
+    {
+      "value": "Modular",
+      "label": "Comfortable with scalable component systems"
+    },
+    {
+      "value": "Ops Mindset",
+      "label": "Support, debugging, deployment, and uptime"
+    }
+  ],
+  "groups": [
+    {
+      "title": "Frontend and Motion",
+      "skills": ["React", "TailwindCSS", "GSAP", "JavaScript ES6+", "Bootstrap", "jQuery", "Figma"]
+    },
+    {
+      "title": "Backend Systems",
+      "skills": ["PHP", "Laravel", "RESTful API", "OOP", "Midtrans API", "WordPress", "OJS 3.4"]
+    },
+    {
+      "title": "Data and Platform",
+      "skills": ["MySQL", "PostgreSQL", "MongoDB", "Supabase", "ETL Migration", "cPanel/hPanel", "GitHub/GitLab"]
+    },
+    {
+      "title": "Mobile and Workflow",
+      "skills": ["Kotlin", "Java", "Android Studio", "System Analysis", "ERD", "DFD", "Use Case"]
+    }
+  ],
+  "ai": {
+    "eyebrow": "AI-powered workflow",
+    "titleLead": "AI helps me move faster,",
+    "titleAccent": "but fundamentals help me move correctly.",
+    "description": [
+      "I use AI as a collaborative partner to learn faster, build smarter, and solve problems more efficiently.",
+      "But I never skip the fundamentals. Understanding comes first. Speed comes next."
+    ],
+    "learning": {
+      "title": "Learning & Research AI",
+      "bullets": [
+        "Understanding concepts deeply",
+        "Technical learning and documentation",
+        "Research and exploration",
+        "Brainstorming and idea generation",
+        "System architecture discussion",
+        "Debugging guidance",
+        "Knowledge expansion",
+        "Exploring new technologies"
+      ]
+    },
+    "agents": {
+      "title": "AI Agent Workflow & Development",
+      "bullets": [
+        "AI-assisted development",
+        "Context-aware coding",
+        "Refactoring and code improvement",
+        "Automation workflow",
+        "Faster iteration and productivity",
+        "AI pair-programming",
+        "Project scaling support",
+        "Code analysis and optimization",
+        "Using MCP workflow",
+        "Structured, not just vibe coding"
+      ]
+    },
+    "principleLeft": "I do not just ask AI for code.",
+    "principleLeftAccent": "I ask the right questions, understand the why, and build the right solutions.",
+    "principleMiddle": "AI is my accelerator, but engineering fundamentals are my foundation.",
+    "foundationLead": "AI is my accelerator, but engineering fundamentals are",
+    "foundationAccent": "my foundation.",
+    "principleCta": "AI + Human Build the Future",
+    "principles": [
+      {
+        "title": "I understand",
+        "text": "the why."
+      },
+      {
+        "title": "I build with",
+        "text": "good architecture."
+      },
+      {
+        "title": "I ship with",
+        "text": "confidence."
+      }
+    ]
+  }
+}

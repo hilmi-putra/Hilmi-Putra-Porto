@@ -1,0 +1,30 @@
+{
+  "brandRole": "Fullstack Web Developer",
+  "mainNavigation": "Main navigation",
+  "backToTop": "Back to top",
+  "toggleNavigation": "Toggle navigation",
+  "talk": "Let's talk",
+  "items": {
+    "memories": "Memories",
+    "journey": "Journey",
+    "gallery": "Gallery",
+    "growth": "Growth",
+    "future": "Future"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "current": "Current language",
+    "open": "Open language menu",
+    "close": "Close language menu",
+    "options": {
+      "en": {
+        "label": "English",
+        "short": "EN"
+      },
+      "id": {
+        "label": "Indonesia",
+        "short": "ID"
+      }
+    }
+  }
+}

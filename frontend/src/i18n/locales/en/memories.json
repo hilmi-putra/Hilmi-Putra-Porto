@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Memories",
+  "title": "Small beginnings that slowly became a clear direction.",
+  "description": "This section captures the early sparks: the software engineering lab, cross-platform experiments, and the habit of thinking clearly before writing code.",
+  "items": [
+    {
+      "year": "2022",
+      "title": "Starting from RPL",
+      "text": "The first foundation was built at SMK Negeri 1 Cimahi: HTML, CSS, JavaScript, PHP, Laravel, RESTful APIs, and a system-thinking mindset."
+    },
+    {
+      "year": "Lab Days",
+      "title": "Cross-platform experiments",
+      "text": "Explored Android Studio with Java and Kotlin, Arduino Uno basics, jQuery, Bootstrap, Tailwind CSS, and interface mockups in Figma."
+    },
+    {
+      "year": "Leadership",
+      "title": "Learning to lead through community",
+      "text": "Served as an extracurricular leader, sharpening technical communication, task distribution, time management, and problem solving."
+    }
+  ]
+}

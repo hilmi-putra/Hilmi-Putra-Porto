@@ -1,0 +1,66 @@
+{
+  "eyebrow": "Journey",
+  "title": "Timeline kerja, belajar, dan delivery.",
+  "description": "Flow-nya dibuat seperti perjalanan hidup: sekolah, project pertama yang serius, workflow retail, lalu produk operasional dan publishing.",
+  "patternEyebrow": "Main pattern",
+  "patternText": "Think, map, build, debug, ship.",
+  "detailButton": "Lihat detail",
+  "modalClose": "Tutup dialog",
+  "modalOverview": "Overview",
+  "modalDetails": "Detail utama",
+  "modalStack": "Stack dan fokus",
+  "items": [
+    {
+      "time": "Jan 2022 - Jan 2025",
+      "title": "Software Engineering Student",
+      "org": "SMK Negeri 1 Cimahi",
+      "summary": "Menguasai dasar fullstack development, API, UI responsive, version control, dokumentasi teknis, dan perancangan sistem.",
+      "details": [
+        "Mendalami fullstack web development dengan PHP Laravel, RESTful API, Tailwind CSS, Bootstrap, dan implementasi tampilan responsif.",
+        "Mengeksplor Android Studio dengan Java dan Kotlin, frontend interaktif dengan jQuery, serta dasar Arduino Uno menggunakan bahasa C.",
+        "Berlatih Git version control melalui GitHub dan GitLab, perancangan interface di Figma, serta dokumentasi proyek yang terstruktur.",
+        "Mengasah leadership sebagai ketua ekstrakurikuler, termasuk planning, koordinasi tugas, dan komunikasi tim."
+      ],
+      "tags": ["Laravel", "Tailwind", "Git", "Figma"]
+    },
+    {
+      "time": "Feb 2025 - May 2025",
+      "title": "Junior Full Stack Web Developer",
+      "org": "PT Citra Jelajah Informatika",
+      "summary": "Membangun backend POS dengan Laravel, integrasi Midtrans API, ERD, DFD, use case, dan memimpin koordinasi progres tim.",
+      "details": [
+        "Mengembangkan modul backend sistem POS menggunakan PHP Laravel dengan struktur database relasional yang rapi.",
+        "Mengintegrasikan payment gateway Midtrans untuk alur transaksi yang lebih seamless.",
+        "Menyusun blueprint proyek mulai dari ERD, skema relasional, DFD Level 0-2, sampai use case diagram.",
+        "Mengkoordinasikan tugas harian dan mingguan, memfasilitasi evaluasi progres, serta menjaga komunikasi teknis dengan pembimbing dan tim."
+      ],
+      "tags": ["Laravel", "Midtrans", "MySQL", "Leadership"]
+    },
+    {
+      "time": "Jun 2025 - Jul 2025",
+      "title": "IT Support / Developer",
+      "org": "Flowty",
+      "summary": "Mengembangkan Flowty Pay POS, sistem barcode, integrasi CRM UMKM, serta migrasi data inventaris lebih dari 500 SKU ke Majoo.",
+      "details": [
+        "Merancang dan mengembangkan workflow internal Flowty Pay POS dengan Laravel dan fondasi frontend responsif.",
+        "Mengimplementasikan barcode checkout yang menurunkan rata-rata waktu checkout sekitar 20% dan meningkatkan akurasi inventaris.",
+        "Mengintegrasikan kebutuhan CRM untuk pengelolaan data pelanggan UMKM dan otomasi proses bisnis.",
+        "Memimpin migrasi data inventaris lebih dari 500 SKU ke Majoo dengan transisi data yang akurat dan seamless."
+      ],
+      "tags": ["POS", "Barcode", "CRM", "ETL"]
+    },
+    {
+      "time": "Aug 2025 - Present",
+      "title": "Fullstack Web Developer",
+      "org": "PT Arka Mega Nusantara",
+      "summary": "Mengembangkan company profile, web berita WordPress, theme OJS 3.4, troubleshooting kritis, dan customer handling teknis.",
+      "details": [
+        "Mengimplementasikan dan mengembangkan website company profile serta web berita WordPress melalui workflow custom theme dan page builder.",
+        "Merancang dan menciptakan theme dedicated Open Journal System 3.4 dengan custom CSS dan modifikasi theme Manuscript.",
+        "Melakukan kustomisasi workflow OJS untuk mendukung standar penerbitan jurnal ilmiah.",
+        "Memimpin troubleshooting, debugging, dan customer handling tingkat lanjut untuk menjaga stabilitas operasional dan uptime."
+      ],
+      "tags": ["WordPress", "OJS 3.4", "Debugging", "Support"]
+    }
+  ]
+}

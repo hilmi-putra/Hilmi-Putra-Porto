@@ -1,0 +1,95 @@
+{
+  "eyebrow": "Growth",
+  "title": "Tech stack yang tumbuh dari project nyata.",
+  "description": "Skill-set ini bukan sekadar daftar tools. Ia lahir dari POS, payment gateway, OJS, WordPress, migration, dashboard, dan interface yang perlu stabil dipakai orang.",
+  "stackBadge": "Stack",
+  "highlights": [
+    {
+      "value": "Fullstack",
+      "label": "Membangun dari database sampai UI yang rapi"
+    },
+    {
+      "value": "Modular",
+      "label": "Terbiasa dengan component system yang scalable"
+    },
+    {
+      "value": "Ops Mindset",
+      "label": "Support, debugging, deployment, dan uptime"
+    }
+  ],
+  "groups": [
+    {
+      "title": "Frontend and Motion",
+      "skills": ["React", "TailwindCSS", "GSAP", "JavaScript ES6+", "Bootstrap", "jQuery", "Figma"]
+    },
+    {
+      "title": "Backend Systems",
+      "skills": ["PHP", "Laravel", "RESTful API", "OOP", "Midtrans API", "WordPress", "OJS 3.4"]
+    },
+    {
+      "title": "Data and Platform",
+      "skills": ["MySQL", "PostgreSQL", "MongoDB", "Supabase", "ETL Migration", "cPanel/hPanel", "GitHub/GitLab"]
+    },
+    {
+      "title": "Mobile and Workflow",
+      "skills": ["Kotlin", "Java", "Android Studio", "System Analysis", "ERD", "DFD", "Use Case"]
+    }
+  ],
+  "ai": {
+    "eyebrow": "AI-powered workflow",
+    "titleLead": "AI membantu saya bergerak lebih cepat,",
+    "titleAccent": "tapi fundamental membantu saya bergerak dengan benar.",
+    "description": [
+      "Saya menggunakan AI sebagai partner kolaboratif untuk belajar lebih cepat, membangun lebih cerdas, dan menyelesaikan masalah lebih efisien.",
+      "Tapi saya tidak melewati fundamental. Pemahaman dulu, kecepatan setelahnya."
+    ],
+    "learning": {
+      "title": "Learning & Research AI",
+      "bullets": [
+        "Memahami konsep secara mendalam",
+        "Belajar teknis dan membaca dokumentasi",
+        "Riset dan eksplorasi",
+        "Brainstorming dan pembentukan ide",
+        "Diskusi arsitektur sistem",
+        "Arahan debugging",
+        "Memperluas pengetahuan",
+        "Eksplorasi teknologi baru"
+      ]
+    },
+    "agents": {
+      "title": "AI Agent Workflow & Development",
+      "bullets": [
+        "AI-assisted development",
+        "Context-aware coding",
+        "Refactoring dan peningkatan kualitas code",
+        "Automation workflow",
+        "Iterasi lebih cepat dan produktif",
+        "AI pair-programming",
+        "Dukungan scaling project",
+        "Analisis dan optimasi code",
+        "Menggunakan workflow MCP",
+        "Terstruktur, bukan sekadar vibe coding"
+      ]
+    },
+    "principleLeft": "Saya tidak hanya meminta AI menulis code.",
+    "principleLeftAccent": "Saya bertanya dengan tepat, memahami alasannya, dan membangun solusi yang benar.",
+    "principleMiddle": "AI adalah akselerator saya, tetapi fundamental engineering adalah fondasi saya.",
+    "foundationLead": "AI adalah akselerator saya, tetapi fundamental engineering adalah",
+    "foundationAccent": "fondasi saya.",
+    "principleCta": "AI + Human Build the Future",
+    "principles": [
+      {
+        "title": "Saya memahami",
+        "text": "alasannya."
+      },
+      {
+        "title": "Saya membangun",
+        "text": "dengan arsitektur yang baik."
+      },
+      {
+        "title": "Saya ship",
+        "text": "dengan percaya diri."
+      }
+    ]
+  }
+}

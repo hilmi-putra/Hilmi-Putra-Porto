@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Memories",
+  "title": "Awal kecil yang pelan-pelan jadi arah besar.",
+  "description": "Bagian ini merangkum titik awal: dari ruang belajar RPL, eksperimen lintas teknologi, sampai kebiasaan berpikir rapi sebelum menulis kode.",
+  "items": [
+    {
+      "year": "2022",
+      "title": "Mulai dari RPL",
+      "text": "Fondasi pertama dibangun di SMK Negeri 1 Cimahi: HTML, CSS, JavaScript, PHP, Laravel, RESTful API, dan cara berpikir sistem."
+    },
+    {
+      "year": "Lab Days",
+      "title": "Eksperimen lintas platform",
+      "text": "Belajar Android Studio dengan Java dan Kotlin, dasar Arduino Uno, jQuery, Bootstrap, Tailwind CSS, dan mockup interface di Figma."
+    },
+    {
+      "year": "Leadership",
+      "title": "Belajar memimpin lewat komunitas",
+      "text": "Aktif sebagai ketua ekstrakurikuler, melatih komunikasi teknis, pembagian tugas, manajemen waktu, dan problem solving."
+    }
+  ]
+}

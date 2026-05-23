@@ -1,0 +1,28 @@
+{
+  "badge": "Creative fullstack portfolio",
+  "locationPrefix": "Based in",
+  "titleLines": ["Build", "Useful", "Digital", "Stories."],
+  "description": "Creative fullstack developer from SMK Negeri 1 Cimahi who builds end-to-end web products with Laravel, React, Tailwind, relational databases, and polished UI details. I enjoy creating systems that are strong behind the scenes and interfaces that feel light, clean, and enjoyable to use.",
+  "ctaPrimary": "Explore work",
+  "ctaSecondary": "Let's connect",
+  "currentFocusEyebrow": "Current focus",
+  "currentFocusText": "Laravel systems, React UI, and clean workflow tools.",
+  "portraitAlt": "{{name}} portrait",
+  "portraitLabel": "Hilmi Abdurrafi",
+  "portraitTitle": "Developer with a product mindset.",
+  "sticker": "React + Laravel + motion detail",
+  "stats": [
+    {
+      "value": "20%",
+      "label": "faster checkout through POS barcode flow"
+    },
+    {
+      "value": "500+",
+      "label": "SKU records migrated into an operational platform"
+    },
+    {
+      "value": "OJS 3.4",
+      "label": "theme and workflow customization"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.magnetic-button,
+.reveal-up,
+.stagger-card,
+.float-item,
+.image-scale,
+.parallax-soft,
+.section-transition {
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.section-transition {
+  will-change: clip-path, transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .section-transition {
+    clip-path: none !important;
+  }
+}

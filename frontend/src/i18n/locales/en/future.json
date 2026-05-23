@@ -1,0 +1,85 @@
+{
+  "eyebrow": "Future",
+  "title": "Next products: cleaner, faster, and more human.",
+  "description": "The future vision is to build tools that do more than simply run. They help teams make decisions, track work, and experience software that feels easier to use.",
+  "collabEyebrow": "Open for collaboration",
+  "collabTitle": "Let's build useful interfaces and reliable systems.",
+  "collabCta": "Start a conversation",
+  "detailButton": "Open case study",
+  "modalClose": "Close case study",
+  "modalPreview": "Preview",
+  "modalOverview": "Project overview",
+  "modalFeatures": "Key features",
+  "modalStack": "Stack and technologies",
+  "modalTimeline": "Timeline",
+  "modalRole": "Project role",
+  "viewLive": "View Live",
+  "githubRepository": "Github Repository",
+  "caseStudy": "Case Study",
+  "openMoreEyebrow": "Project archive",
+  "openMoreTitle": "Open the full project room.",
+  "openMoreText": "Future only shows selected highlights. Explore the complete archive for product systems, experiments, mobile concepts, UI explorations, and case study notes.",
+  "openMoreButton": "Open More",
+  "projects": [
+    {
+      "title": "TrackOrderFlow",
+      "type": "Internal workflow platform",
+      "text": "A cross-division workflow management system built around Laravel, Inertia React, role permissions, queues, notifications, invoices, finance, and operational dashboards.",
+      "longDescription": "TrackOrderFlow is imagined as a command center for multi-division operations: sales, relationship managers, production, finance, marketing, project managers, and administrators. The product direction focuses on clarity, permission-aware workflows, realtime notifications, and dashboards that make daily work easier to scan and act on.",
+      "timeline": "2025 - ongoing concept and system direction",
+      "role": "Fullstack developer, workflow planner, UI systems designer",
+      "features": [
+        "Role-aware workflow dashboards for multiple operational divisions.",
+        "Invoice, finance, queue, and notification flow in one integrated system.",
+        "Realtime operational visibility using a Laravel and React foundation.",
+        "Structured permissions, audit-friendly data, and scalable module boundaries."
+      ],
+      "tags": ["Laravel 12", "Inertia React", "MySQL", "Realtime"]
+    },
+    {
+      "title": "Lokanata OJS Theme",
+      "type": "Journal publishing experience",
+      "text": "An OJS 3.x theme direction that feels more editorial, easier to customize, and ready for institutional journals with structured publishing workflows.",
+      "longDescription": "Lokanata OJS Theme is a publishing experience direction for scientific journals that need to feel credible, editorial, and maintainable. The goal is to make OJS customization more elegant while respecting journal workflow standards.",
+      "timeline": "Aug 2025 - Nov 2025",
+      "role": "OJS theme customizer, CSS system builder, technical support",
+      "features": [
+        "Dedicated OJS 3.x theme direction with custom visual hierarchy.",
+        "Custom CSS and Manuscript theme modification for institution needs.",
+        "Publishing workflow customization aligned with journal management standards.",
+        "Reusable content blocks and support for multi-instance journal setup."
+      ],
+      "tags": ["OJS 3.4", "Custom CSS", "Workflow", "Support"]
+    },
+    {
+      "title": "Flowty Pay POS",
+      "type": "Retail operations toolkit",
+      "text": "A Laravel POS with barcode checkout, stock opname, CRM foundations, and data migration support to help small businesses work faster and more accurately.",
+      "longDescription": "Flowty Pay POS is a retail operations toolkit built to make checkout, stock tracking, customer data, and migration workflows more practical for small businesses. It focuses on speed, inventory accuracy, and operational simplicity.",
+      "timeline": "Jun 2025 - Jul 2025",
+      "role": "IT support, Laravel developer, migration handler",
+      "features": [
+        "Barcode checkout flow that reduces average checkout time.",
+        "Stock opname workflow for more accurate inventory handling.",
+        "CRM integration foundations for SME customer data management.",
+        "Migration process for more than 500 SKU records into Majoo."
+      ],
+      "tags": ["Laravel 11", "Barcode", "CRM", "Bootstrap"]
+    },
+    {
+      "title": "Creative Developer Lab",
+      "type": "Future vision",
+      "text": "An experimental space for combining React motion, design systems, dashboard analytics, and automation into products that feel more human.",
+      "longDescription": "Creative Developer Lab is a future-facing playground for turning technical systems into more expressive, useful, and humane products. It combines motion, design systems, analytics, and automation into a living product lab.",
+      "timeline": "Future roadmap",
+      "role": "Creative developer, motion designer, product explorer",
+      "features": [
+        "Motion-first React interface experiments powered by GSAP.",
+        "Reusable design system patterns for dashboards and product pages.",
+        "Analytics-oriented product concepts with clean information hierarchy.",
+        "Automation ideas that reduce repetitive operational work."
+      ],
+      "tags": ["React", "GSAP", "Design System", "Automation"]
+    }
+  ]
+}

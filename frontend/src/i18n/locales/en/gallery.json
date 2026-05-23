@@ -1,0 +1,33 @@
+{
+  "eyebrow": "Gallery",
+  "title": "Visual notes from code, craft, and personal energy.",
+  "description": "The gallery works like a memory wall: portrait, mockup, architecture layers, and personal visuals that add rhythm to the portfolio story.",
+  "helper": "Every card uses subtle hover scaling and entrance animation so the grid feels alive, editorial, and intentional.",
+  "items": [
+    {
+      "title": "Builder Portrait",
+      "label": "Personal workspace",
+      "alt": "Hilmi portrait in a workspace"
+    },
+    {
+      "title": "Infrasch UI Mockup",
+      "label": "Interface preview",
+      "alt": "Infrasch mobile app mockup"
+    },
+    {
+      "title": "System Layers",
+      "label": "Architecture mood",
+      "alt": "Layered system illustration"
+    },
+    {
+      "title": "Mountain Reset",
+      "label": "Creative memory",
+      "alt": "Mountain landscape at sunrise"
+    },
+    {
+      "title": "Rhythm and Focus",
+      "label": "Personal energy",
+      "alt": "Guitar stage performance"
+    }
+  ]
+}

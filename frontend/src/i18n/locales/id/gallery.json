@@ -1,0 +1,33 @@
+{
+  "eyebrow": "Gallery",
+  "title": "Visual notes dari code, craft, dan energi personal.",
+  "description": "Gallery dibuat sebagai memory wall: portrait, mockup, layer arsitektur, dan visual personal yang memberi ritme pada cerita portfolio.",
+  "helper": "Setiap kartu punya hover scaling halus dan entrance animation supaya grid terasa hidup, editorial, dan intentional.",
+  "items": [
+    {
+      "title": "Builder Portrait",
+      "label": "Personal workspace",
+      "alt": "Potret Hilmi di workspace"
+    },
+    {
+      "title": "Infrasch UI Mockup",
+      "label": "Interface preview",
+      "alt": "Mockup aplikasi mobile Infrasch"
+    },
+    {
+      "title": "System Layers",
+      "label": "Architecture mood",
+      "alt": "Ilustrasi layer sistem"
+    },
+    {
+      "title": "Mountain Reset",
+      "label": "Creative memory",
+      "alt": "Lanskap gunung saat matahari terbit"
+    },
+    {
+      "title": "Rhythm and Focus",
+      "label": "Personal energy",
+      "alt": "Pertunjukan gitar di panggung"
+    }
+  ]
+}

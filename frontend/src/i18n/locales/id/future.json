@@ -1,0 +1,85 @@
+{
+  "eyebrow": "Future",
+  "title": "Produk berikutnya: lebih rapi, cepat, dan manusiawi.",
+  "description": "Visi ke depan adalah membangun tools yang bukan hanya berjalan, tetapi membantu tim mengambil keputusan, melacak pekerjaan, dan merasakan software yang lebih enak dipakai.",
+  "collabEyebrow": "Open for collaboration",
+  "collabTitle": "Let's build useful interfaces and reliable systems.",
+  "collabCta": "Start a conversation",
+  "detailButton": "Buka case study",
+  "modalClose": "Tutup case study",
+  "modalPreview": "Preview",
+  "modalOverview": "Project overview",
+  "modalFeatures": "Fitur utama",
+  "modalStack": "Stack dan teknologi",
+  "modalTimeline": "Timeline",
+  "modalRole": "Peran project",
+  "viewLive": "View Live",
+  "githubRepository": "Github Repository",
+  "caseStudy": "Case Study",
+  "openMoreEyebrow": "Project archive",
+  "openMoreTitle": "Buka ruang project lengkap.",
+  "openMoreText": "Future hanya menampilkan highlight pilihan. Jelajahi archive lengkap untuk product systems, eksperimen, konsep mobile, eksplorasi UI, dan catatan case study.",
+  "openMoreButton": "Open More",
+  "projects": [
+    {
+      "title": "TrackOrderFlow",
+      "type": "Internal workflow platform",
+      "text": "Sistem manajemen workflow lintas divisi berbasis Laravel, Inertia React, role permission, queue, notification, invoice, finance, dan dashboard operasional.",
+      "longDescription": "TrackOrderFlow dibayangkan sebagai pusat kontrol untuk operasional lintas divisi: sales, relationship manager, production, finance, marketing, project manager, dan admin. Arah produknya fokus pada workflow yang jelas, permission-aware, notifikasi realtime, dan dashboard yang mudah dipindai untuk pekerjaan harian.",
+      "timeline": "2025 - ongoing concept and system direction",
+      "role": "Fullstack developer, workflow planner, UI systems designer",
+      "features": [
+        "Dashboard workflow berbasis role untuk banyak divisi operasional.",
+        "Alur invoice, finance, queue, dan notification dalam satu sistem terintegrasi.",
+        "Visibilitas operasional realtime dengan fondasi Laravel dan React.",
+        "Permission terstruktur, data audit-friendly, dan boundary modul yang scalable."
+      ],
+      "tags": ["Laravel 12", "Inertia React", "MySQL", "Realtime"]
+    },
+    {
+      "title": "Lokanata OJS Theme",
+      "type": "Journal publishing experience",
+      "text": "Arah theme OJS 3.x yang lebih editorial, mudah dikustom, dan siap dipakai untuk jurnal institusional dengan workflow penerbitan yang rapi.",
+      "longDescription": "Lokanata OJS Theme adalah arah pengalaman publishing untuk jurnal ilmiah yang perlu terasa kredibel, editorial, dan mudah dirawat. Tujuannya membuat kustomisasi OJS lebih elegan tanpa meninggalkan standar workflow jurnal.",
+      "timeline": "Aug 2025 - Nov 2025",
+      "role": "OJS theme customizer, CSS system builder, technical support",
+      "features": [
+        "Arah theme OJS 3.x dedicated dengan visual hierarchy yang lebih kuat.",
+        "Custom CSS dan modifikasi theme Manuscript sesuai kebutuhan institusi.",
+        "Kustomisasi workflow publishing yang mengikuti standar manajemen jurnal.",
+        "Reusable content blocks dan dukungan setup banyak instance jurnal."
+      ],
+      "tags": ["OJS 3.4", "Custom CSS", "Workflow", "Support"]
+    },
+    {
+      "title": "Flowty Pay POS",
+      "type": "Retail operations toolkit",
+      "text": "POS Laravel dengan barcode, stock opname, fondasi CRM, dan dukungan data migration untuk membantu UMKM bekerja lebih cepat dan akurat.",
+      "longDescription": "Flowty Pay POS adalah toolkit operasional retail untuk membuat checkout, stock tracking, data pelanggan, dan migration workflow lebih praktis bagi UMKM. Fokusnya ada pada kecepatan, akurasi inventaris, dan workflow yang sederhana.",
+      "timeline": "Jun 2025 - Jul 2025",
+      "role": "IT support, Laravel developer, migration handler",
+      "features": [
+        "Alur barcode checkout yang membantu menurunkan rata-rata waktu checkout.",
+        "Workflow stock opname untuk inventaris yang lebih akurat.",
+        "Fondasi integrasi CRM untuk pengelolaan data pelanggan UMKM.",
+        "Proses migrasi lebih dari 500 data SKU ke Majoo."
+      ],
+      "tags": ["Laravel 11", "Barcode", "CRM", "Bootstrap"]
+    },
+    {
+      "title": "Creative Developer Lab",
+      "type": "Future vision",
+      "text": "Ruang eksperimen untuk menggabungkan React motion, design system, dashboard analytics, dan automation ke dalam produk yang terasa lebih manusiawi.",
+      "longDescription": "Creative Developer Lab adalah ruang eksplorasi masa depan untuk mengubah sistem teknis menjadi produk yang lebih ekspresif, berguna, dan manusiawi. Arahnya menggabungkan motion, design system, analytics, dan automation ke dalam product lab yang terus berkembang.",
+      "timeline": "Future roadmap",
+      "role": "Creative developer, motion designer, product explorer",
+      "features": [
+        "Eksperimen interface React berbasis motion dengan GSAP.",
+        "Pattern design system reusable untuk dashboard dan product page.",
+        "Konsep produk analytics dengan information hierarchy yang clean.",
+        "Ide automation untuk mengurangi pekerjaan operasional repetitif."
+      ],
+      "tags": ["React", "GSAP", "Design System", "Automation"]
+    }
+  ]
+}

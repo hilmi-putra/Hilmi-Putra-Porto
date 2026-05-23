@@ -1,0 +1,66 @@
+{
+  "eyebrow": "Journey",
+  "title": "A timeline of learning, work, and delivery.",
+  "description": "The flow is shaped like a personal career path: school, serious first projects, retail workflows, then operational products and publishing systems.",
+  "patternEyebrow": "Main pattern",
+  "patternText": "Think, map, build, debug, ship.",
+  "detailButton": "Show detail",
+  "modalClose": "Close dialog",
+  "modalOverview": "Overview",
+  "modalDetails": "Key details",
+  "modalStack": "Stack and focus",
+  "items": [
+    {
+      "time": "Jan 2022 - Jan 2025",
+      "title": "Software Engineering Student",
+      "org": "SMK Negeri 1 Cimahi",
+      "summary": "Built a foundation in fullstack development, APIs, responsive UI, version control, technical documentation, and system design.",
+      "details": [
+        "Specialized in fullstack web development with PHP Laravel, RESTful APIs, Tailwind CSS, Bootstrap, and responsive interface implementation.",
+        "Explored Android Studio with Java and Kotlin, interactive frontend development with jQuery, and Arduino Uno fundamentals using C.",
+        "Practiced Git version control through GitHub and GitLab, interface planning in Figma, and structured project documentation.",
+        "Developed leadership habits as an extracurricular leader, including planning, task coordination, and team communication."
+      ],
+      "tags": ["Laravel", "Tailwind", "Git", "Figma"]
+    },
+    {
+      "time": "Feb 2025 - May 2025",
+      "title": "Junior Full Stack Web Developer",
+      "org": "PT Citra Jelajah Informatika",
+      "summary": "Developed a POS backend with Laravel, integrated the Midtrans API, prepared ERD, DFD, and use case diagrams, and coordinated team progress.",
+      "details": [
+        "Built backend modules for a POS system using PHP Laravel with a clean relational database structure.",
+        "Integrated Midtrans payment gateway flows for smoother transaction handling.",
+        "Prepared project blueprints from ERD to relational schema, DFD Level 0-2, and use case diagrams.",
+        "Coordinated daily and weekly tasks, facilitated progress reviews, and managed technical communication with mentors and the team."
+      ],
+      "tags": ["Laravel", "Midtrans", "MySQL", "Leadership"]
+    },
+    {
+      "time": "Jun 2025 - Jul 2025",
+      "title": "IT Support / Developer",
+      "org": "Flowty",
+      "summary": "Built Flowty Pay POS, barcode checkout, SME CRM integration, and migrated more than 500 inventory SKUs into Majoo.",
+      "details": [
+        "Designed and developed the internal Flowty Pay POS workflow with Laravel and responsive frontend foundations.",
+        "Implemented barcode checkout that reduced average checkout time by around 20% and improved inventory accuracy.",
+        "Integrated CRM needs for SME customer data management and business process automation.",
+        "Led inventory data migration of more than 500 SKUs into Majoo with an accurate and seamless transition."
+      ],
+      "tags": ["POS", "Barcode", "CRM", "ETL"]
+    },
+    {
+      "time": "Aug 2025 - Present",
+      "title": "Fullstack Web Developer",
+      "org": "PT Arka Mega Nusantara",
+      "summary": "Developed company profiles, WordPress news sites, OJS 3.4 themes, critical troubleshooting workflows, and technical customer support.",
+      "details": [
+        "Implemented and developed company profile websites and news-style WordPress experiences using custom theme and page builder workflows.",
+        "Designed and created dedicated Open Journal System 3.4 themes with custom CSS and Manuscript theme modification.",
+        "Handled OJS workflow customization to support scientific journal publishing standards.",
+        "Led troubleshooting, debugging, and advanced customer handling to maintain operational stability and uptime."
+      ],
+      "tags": ["WordPress", "OJS 3.4", "Debugging", "Support"]
+    }
+  ]
+}
