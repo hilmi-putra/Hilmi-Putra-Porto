@@ -76,7 +76,7 @@ const FutureProjectCard = ({ project, meta, index, variant, onOpen, detailLabel 
           <p className={`text-xs font-black uppercase tracking-[0.24em] ${featured ? "text-lime-200" : "text-blue-500"}`}>
             {project.type}
           </p>
-          <h3 className="mt-4 font-display text-4xl font-black leading-[0.9] [overflow-wrap:anywhere] sm:text-5xl lg:text-[3.25rem]">
+          <h3 className="mt-4 font-display text-4xl font-black leading-[0.9] [overflow-wrap:anywhere] line-clamp-3 sm:text-5xl lg:text-[3.25rem]">
             {project.title}
           </h3>
         </div>
@@ -90,7 +90,7 @@ const FutureProjectCard = ({ project, meta, index, variant, onOpen, detailLabel 
         </span>
       </div>
 
-      <p className={`relative z-10 mt-6 max-w-2xl text-sm leading-7 ${featured ? "text-white/74" : "text-slate-600"}`}>
+      <p className={`relative z-10 mt-6 max-w-2xl text-sm leading-7 line-clamp-4 ${featured ? "text-white/74" : "text-slate-600"}`}>
         {project.text}
       </p>
 
@@ -569,7 +569,7 @@ export const Future = () => {
              <p className="text-lg font-bold text-white/50">Future projects are currently empty.</p>
           </div>
         ) : (
-          dbProjects.map((data, idx) => (
+          dbProjects.slice(0, 4).map((data, idx) => (
             <FutureProjectCard
               key={data.id}
               project={data.project}

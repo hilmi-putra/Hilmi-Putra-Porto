@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
 import gsap from "gsap";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
 import { LanguageSwitcher } from "../common/LanguageSwitcher";
 import { navItems, profile } from "../../data/portfolio";
 
@@ -170,6 +170,10 @@ export const Header = () => {
           </nav>
 
           <div className="flex items-center gap-2">
+            <a href="/cv.pdf" download="CV_Hilmi_Abdurrafi.pdf" className="hidden rounded-full bg-blue-50 px-5 py-3 text-sm font-black text-blue-600 transition-colors duration-300 hover:bg-blue-100 md:inline-flex items-center gap-2">
+              <Download size={16} />
+              <span>CV</span>
+            </a>
             <a href={`mailto:${profile.email}`} className="hidden rounded-full bg-lime-300 px-5 py-3 text-sm font-black text-slate-950 transition-colors duration-300 hover:bg-lime-200 md:inline-flex">
               {t("talk")}
             </a>
@@ -205,6 +209,10 @@ export const Header = () => {
                 {t(`items.${item.id}`)}
               </button>
             ))}
+            <a href="/cv.pdf" download="CV_Hilmi_Abdurrafi.pdf" className="flex items-center gap-2 rounded-2xl bg-blue-50 px-4 py-4 text-base font-black text-blue-600" onClick={closeMobileMenu}>
+              <Download size={18} />
+              <span>Download CV</span>
+            </a>
             <a href={`mailto:${profile.email}`} className="rounded-2xl bg-lime-300 px-4 py-4 text-base font-black text-slate-950" onClick={closeMobileMenu}>
               {t("talk")}
             </a>

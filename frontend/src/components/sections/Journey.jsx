@@ -290,7 +290,7 @@ export const Journey = () => {
               <div className={`absolute left-6 top-6 h-3 w-3 rounded-full ${index === 1 ? "bg-white/40 ring-white/20" : "bg-lime-300 ring-lime-200/40"} ring-8`} />
               <div className="flex h-full flex-col pt-12">
                 <p className={`text-xs font-black uppercase tracking-[0.2em] ${index === 1 ? "text-white/70" : "text-blue-500"}`}>{item.time}</p>
-                <h3 className="mt-5 font-display text-3xl font-black leading-none">{item.title}</h3>
+                <h3 className="mt-5 font-display text-2xl xl:text-3xl font-black leading-snug">{item.title}</h3>
                 <p className={`mt-3 text-sm font-bold ${index === 1 ? "text-blue-200" : "text-slate-500"}`}>{item.org}</p>
                 <p className={`mt-5 text-sm leading-7 ${index === 1 ? "text-white/78" : "text-slate-600"} line-clamp-4`}>{item.summary}</p>
                 <div className="mt-8 flex flex-wrap gap-2">
