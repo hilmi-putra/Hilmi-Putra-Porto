@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { Menu, X, Download } from "lucide-react";
 import { LanguageSwitcher } from "../common/LanguageSwitcher";
 import { navItems, profile } from "../../data/portfolio";
+import cvFile from "../../assets/CV/CV-Hilmi-2026.pdf";
 
 export const Header = () => {
   const { t } = useTranslation("navbar");
@@ -170,9 +171,9 @@ export const Header = () => {
           </nav>
 
           <div className="flex items-center gap-2">
-            <a href="/cv.pdf" download="CV_Hilmi_Abdurrafi.pdf" className="hidden rounded-full bg-blue-50 px-5 py-3 text-sm font-black text-blue-600 transition-colors duration-300 hover:bg-blue-100 md:inline-flex items-center gap-2">
+            <a href={cvFile} download="CV-Hilmi-2026.pdf" className="hidden rounded-full bg-blue-50 px-5 py-3 text-sm font-black text-blue-600 transition-colors duration-300 hover:bg-blue-100 md:inline-flex items-center gap-2">
               <Download size={16} />
-              <span>CV</span>
+              CV
             </a>
             <a href={`mailto:${profile.email}`} className="hidden rounded-full bg-lime-300 px-5 py-3 text-sm font-black text-slate-950 transition-colors duration-300 hover:bg-lime-200 md:inline-flex">
               {t("talk")}
@@ -209,9 +210,9 @@ export const Header = () => {
                 {t(`items.${item.id}`)}
               </button>
             ))}
-            <a href="/cv.pdf" download="CV_Hilmi_Abdurrafi.pdf" className="flex items-center gap-2 rounded-2xl bg-blue-50 px-4 py-4 text-base font-black text-blue-600" onClick={closeMobileMenu}>
+            <a href={cvFile} download="CV-Hilmi-2026.pdf" className="flex items-center gap-2 rounded-2xl bg-blue-50 px-4 py-4 text-base font-black text-blue-600" onClick={closeMobileMenu}>
               <Download size={18} />
-              <span>Download CV</span>
+              Download CV
             </a>
             <a href={`mailto:${profile.email}`} className="rounded-2xl bg-lime-300 px-4 py-4 text-base font-black text-slate-950" onClick={closeMobileMenu}>
               {t("talk")}
