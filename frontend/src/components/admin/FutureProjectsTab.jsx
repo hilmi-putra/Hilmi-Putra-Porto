@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Plus, Trash2, Loader2, UploadCloud, Edit2, Star } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
@@ -45,6 +45,7 @@ export const FutureProjectsTab = () => {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     loadData();
   }, []);
 
@@ -165,7 +166,7 @@ export const FutureProjectsTab = () => {
       multiple_images: formData.multiple_images
     };
 
-    let error = null;
+    let error;
     if (formData.id) {
       const res = await updateItem('future_projects', formData.id, payload);
       error = res.error;

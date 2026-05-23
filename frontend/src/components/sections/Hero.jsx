@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Code2, MapPin, Sparkles } from "lucide-react";
+import { MapPin, Sparkles } from "lucide-react";
 import { heroVisuals, profile } from "../../data/portfolio";
 import { MagneticButton } from "../ui/MagneticButton";
 

@@ -2,9 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabaseClient';
 import { Button } from '../components/ui/Button';
-import { Input } from '../components/ui/Input';
-import { Textarea } from '../components/ui/Textarea';
-import { Plus, Edit2, Trash2, LogOut, Loader2, MessageSquare, Briefcase, X, Shield, Route, Image as ImageIcon } from 'lucide-react';
+import { LogOut, Loader2, Briefcase, Shield, Route, Image as ImageIcon } from 'lucide-react';
 import { JourneyTab } from '../components/admin/JourneyTab';
 import { GalleryTab } from '../components/admin/GalleryTab';
 import { FutureProjectsTab } from '../components/admin/FutureProjectsTab';
@@ -16,7 +14,7 @@ export const AdminDashboard = () => {
 
   const navigate = useNavigate();
 
-  const loadData = useCallback(async (sandboxActive) => {
+  const loadData = useCallback(async () => {
     setLoading(true);
     try {
       // Any sandbox initialization if needed

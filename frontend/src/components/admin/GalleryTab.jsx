@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Plus, Trash2, Loader2, Image as ImageIcon, UploadCloud } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Plus, Trash2, Loader2, UploadCloud } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
 import { fetchItems, createItem, deleteItem, updateSortOrders } from '../../services/api';
-import { uploadImage, deleteImage } from '../../services/storage';
+import { uploadImage } from '../../services/storage';
 import { SortableList } from '../dnd/SortableList';
 import { SortableItem } from '../dnd/SortableItem';
 
@@ -31,6 +31,7 @@ export const GalleryTab = () => {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     loadData();
   }, []);
 
