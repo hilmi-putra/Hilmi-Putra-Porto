@@ -49,7 +49,7 @@ export const Hero = () => {
             </MagneticButton>
           </div>
 
-          <div className="hero-reveal grid w-full max-w-3xl grid-cols-1 gap-3 sm:grid-cols-3">
+          <div className="hero-reveal grid w-full max-w-full grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
             {stats.map((stat) => (
               <div key={stat.value} className="rounded-[1.4rem] border border-slate-200 bg-white/80 p-4 shadow-[0_14px_35px_rgba(15,23,42,0.06)]">
                 <div className="font-display text-3xl font-black text-blue-600">{stat.value}</div>
@@ -73,11 +73,6 @@ export const Hero = () => {
                 <h2 className="mt-2 font-display text-3xl font-black leading-none">{t("portraitTitle")}</h2>
               </div>
             </div>
-          </div>
-
-          <div className="float-item absolute -right-2 bottom-0 z-20 w-40 rounded-[1.6rem] bg-lime-300 p-4 shadow-[0_18px_45px_rgba(132,204,22,0.28)] sm:w-48">
-            <Code2 size={22} />
-            <p className="mt-3 text-sm font-black leading-5 text-slate-950">{t("sticker")}</p>
           </div>
 
           <div className="float-item absolute -right-8 top-0 z-0 hidden h-36 w-36 rotate-12 items-center justify-center rounded-[2rem] bg-slate-950 p-5 shadow-[0_22px_60px_rgba(15,23,42,0.2)] sm:flex">

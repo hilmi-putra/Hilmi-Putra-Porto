@@ -13,16 +13,20 @@
   "sticker": "React + Laravel + motion detail",
   "stats": [
     {
+      "value": "3+",
+      "label": "production apps shipped across real businesses"
+    },
+    {
       "value": "20%",
-      "label": "faster checkout through POS barcode flow"
+      "label": "faster checkout — barcode flow I built for a live POS"
     },
     {
-      "value": "500+",
-      "label": "SKU records migrated into an operational platform"
+      "value": "7",
+      "label": "team roles served by one system I architected"
     },
     {
-      "value": "OJS 3.4",
-      "label": "theme and workflow customization"
+      "value": "10+",
+      "label": "tech tools picked up on the job, fast"
     }
   ]
 }

@@ -13,16 +13,20 @@
   "sticker": "React + Laravel + motion detail",
   "stats": [
     {
+      "value": "3+",
+      "label": "aplikasi produksi diluncurkan untuk bisnis nyata"
+    },
+    {
       "value": "20%",
       "label": "checkout lebih cepat lewat alur barcode POS"
     },
     {
-      "value": "500+",
-      "label": "data SKU dimigrasikan ke platform operasional"
+      "value": "7",
+      "label": "peran tim dilayani oleh satu sistem yang saya rancang"
     },
     {
-      "value": "OJS 3.4",
-      "label": "kustomisasi theme dan workflow"
+      "value": "10+",
+      "label": "tools teknologi dipelajari dengan cepat saat bekerja"
     }
   ]
 }
