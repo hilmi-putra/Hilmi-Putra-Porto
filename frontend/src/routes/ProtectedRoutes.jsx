@@ -1,16 +1,20 @@
-import { useState, useEffect } from 'react';
-import { Navigate } from 'react-router-dom';
-import { supabase } from '../lib/supabaseClient';
-import { Loader2 } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { Navigate } from "react-router-dom";
+import { supabase } from "../lib/supabaseClient";
+import { Loader2 } from "lucide-react";
+import { SANDBOX_ENABLED, hasSandboxSession } from "../lib/sandboxMode";
 
-const sandboxSession = { user: { email: 'sandbox-admin@portfolio.local' } };
-const hasSandboxSession = () => localStorage.getItem('portfolio_sandbox_session') === 'true';
+const sandboxSession = { user: { email: "sandbox-admin@portfolio.local" } };
 
 export const ProtectedRoutes = ({ children }) => {
   const [session, setSession] = useState(() => (hasSandboxSession() ? sandboxSession : null));
   const [loading, setLoading] = useState(() => !hasSandboxSession());
 
   useEffect(() => {
+    if (!SANDBOX_ENABLED && localStorage.getItem("portfolio_sandbox_session") === "true") {
+      localStorage.removeItem("portfolio_sandbox_session");
+    }
+
     if (hasSandboxSession()) {
       return;
     }
@@ -23,7 +27,9 @@ export const ProtectedRoutes = ({ children }) => {
       setLoading(false);
     });
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
       // Prioritize sandbox override if active
       if (hasSandboxSession()) {
         setSession(sandboxSession);

@@ -4,6 +4,7 @@ import { supabase } from "../lib/supabaseClient";
 import { Input } from "../components/ui/Input";
 import { Button } from "../components/ui/Button";
 import { KeyRound, AlertTriangle, ShieldCheck, Loader2, Eye, EyeOff } from "lucide-react";
+import { SANDBOX_ENABLED } from "../lib/sandboxMode";
 
 export const AdminLogin = () => {
   const [email, setEmail] = useState("");
@@ -38,6 +39,10 @@ export const AdminLogin = () => {
   };
 
   const handleSandboxBypass = () => {
+    if (!SANDBOX_ENABLED) {
+      return;
+    }
+
     localStorage.setItem("portfolio_sandbox_session", "true");
     navigate("/admin/dashboard");
   };
@@ -115,22 +120,26 @@ export const AdminLogin = () => {
           </Button>
         </form>
 
-        <div className="relative flex py-2 items-center">
-          <div className="flex-grow border-t border-white/20"></div>
-          <span className="flex-shrink mx-4 text-[9px] uppercase tracking-widest text-blue-100">Or Test Sandbox</span>
-          <div className="flex-grow border-t border-white/20"></div>
-        </div>
+        {SANDBOX_ENABLED && (
+          <>
+            <div className="relative flex py-2 items-center">
+              <div className="flex-grow border-t border-white/20"></div>
+              <span className="flex-shrink mx-4 text-[9px] uppercase tracking-widest text-blue-100">Or Test Sandbox</span>
+              <div className="flex-grow border-t border-white/20"></div>
+            </div>
 
-        {/* Sandbox Access callout and Button */}
-        <div className="flex flex-col gap-3">
-          <Button variant="outline" onClick={handleSandboxBypass} className="w-full flex items-center justify-center gap-2 border-white/30 text-white hover:bg-white/10">
-            <ShieldCheck size={16} className="text-brand-lime" />
-            Bypass to Demo Sandbox
-          </Button>
-          <span className="text-[10px] text-blue-100/80 leading-relaxed font-light text-center">
-            * Use Sandbox Mode to test full database additions, edits, and deletions instantly in your browser without active credentials.
-          </span>
-        </div>
+            {/* Sandbox Access callout and Button */}
+            <div className="flex flex-col gap-3">
+              <Button variant="outline" onClick={handleSandboxBypass} className="w-full flex items-center justify-center gap-2 border-white/30 text-white hover:bg-white/10">
+                <ShieldCheck size={16} className="text-brand-lime" />
+                Bypass to Demo Sandbox
+              </Button>
+              <span className="text-[10px] text-blue-100/80 leading-relaxed font-light text-center">
+                * Use Sandbox Mode to test full database additions, edits, and deletions instantly in your browser without active credentials.
+              </span>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
