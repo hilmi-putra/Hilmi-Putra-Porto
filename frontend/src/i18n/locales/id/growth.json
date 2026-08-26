@@ -20,11 +20,11 @@
   "groups": [
     {
       "title": "Frontend and Motion",
-      "skills": ["React", "TailwindCSS", "GSAP", "JavaScript ES6+", "Bootstrap", "jQuery", "Figma"]
+      "skills": ["React", "Vue", "Next.js", "Nuxt.js", "TailwindCSS", "GSAP", "JavaScript ES6+", "Bootstrap", "jQuery", "Figma"]
     },
     {
       "title": "Backend Systems",
-      "skills": ["PHP", "Laravel", "RESTful API", "OOP", "Midtrans API", "WordPress", "OJS 3.4"]
+      "skills": ["PHP", "Laravel", "Next.js", "Nuxt.js", "RESTful API", "OOP", "Midtrans API", "WordPress", "OJS 3.4"]
     },
     {
       "title": "Data and Platform",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Mobile and Workflow",
-      "skills": ["Kotlin", "Java", "Android Studio", "System Analysis", "ERD", "DFD", "Use Case"]
+      "skills": ["Kotlin", "Java", "Flutter", "Android Studio", "System Analysis", "ERD", "DFD", "Use Case"]
     }
   ],
   "ai": {
